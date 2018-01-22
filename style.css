@@ -1,0 +1,133 @@
+/* Première carte*/
+
+h1 {
+    color: black !important;
+}
+
+.card-panel {
+    padding: 50px !important;
+    border-radius: 10px !important;
+    width: 80% !important;
+    margin: 1rem 10rem 1rem 10rem !important;
+    transition: box-shadow .25s !important;
+}
+
+
+/* Photo */
+
+.circle {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+}
+
+body {
+    background-color: #ffe082;
+}
+
+
+/* Presentation */
+
+.info {
+    margin-top: -300px;
+    margin-left: 500px;
+}
+
+
+/* Bouton CV */
+
+.moreinfo {
+    margin-left: 1000px;
+    font-weight: bold;
+}
+
+.btn-large,
+.btn-large i {
+    font-size: 1.5rem !important;
+}
+
+
+/* Carte */
+
+em {
+    text-decoration: underline;
+}
+
+
+/* Texte Carte */
+
+p {
+    text-align: justify;
+}
+
+
+/* Lien Carte */
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+    color: grey!important;
+}
+
+.bouton_etat {
+    margin-left: 270px;
+}
+
+
+/* Bouton */
+
+.buttonUp {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 1600px;
+    padding-right: 100px;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    /* Rédigez vos propriétés CSS ici */
+    /* Première carte*/
+    .card-panel {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        border-radius: 10px !important;
+        width: 80% !important;
+        margin: 1rem 5rem 1rem 5rem !important;
+        transition: box-shadow .25s !important;
+    }
+    /* Photo */
+    .circle {
+        height: 150px;
+        width: 150px;
+        background-position: center;
+    }
+
+    h1 {
+        color: black !important;
+    }
+
+    body {
+        background-color: darkgrey;
+    }
+
+    /* Presentation*/
+    .info {
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+
+    /* Bouton CV */
+    .moreinfo {
+        margin: auto;
+        font-weight: bold;
+    }
+
+    .btn-large,
+    .btn-large i {
+        font-size: 1.5rem !important;
+    }
+
+    /* Bouton */
+    .buttonUp {
+        display: none;
+    }
+}
