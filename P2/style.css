@@ -1,0 +1,26 @@
+h1 {
+    padding-left: 100px;
+}
+
+h3,
+hr {
+    color: chocolate;
+}
+
+article {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h2 {
+    padding-left: 50px;
+}
+
+footer {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h4 {
+    text-decoration: underline;
+}
