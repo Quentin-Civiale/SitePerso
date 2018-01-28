@@ -9,7 +9,8 @@
     <title>Quentin Civiale</title>
 
     <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="apple-touch-icon.png" />
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="materialize-v0.98.2/materialize/css/materialize.min.css" media="screen,projection" />
 
